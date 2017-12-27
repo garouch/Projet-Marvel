@@ -3,7 +3,10 @@
 	/**
 	* 
 	*/
-	class loginController
+
+	require_once "controller.php";
+
+	class loginController extends Controller
 	{
 		
 		public function login(array $user): ?string // typage donnée en sortie (Null ou string);
